@@ -31,8 +31,7 @@ int main(void) {
    plist = NULL;
 
    n = sizeof(list)/sizeof(int);
-//   printf("발표한 번호와 횟수를 입력해 주세요:");
-//   scanf("%d %d", );
+   
    for (int j = 1; j < 17; j++) {
 
       i = insert(j);
